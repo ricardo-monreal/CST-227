@@ -10,3 +10,15 @@ C:\Users\moise\OneDrive\repos\CST-227\Activity1\CarClassLibrary\obj\Debug\net5.0
 C:\Users\moise\OneDrive\repos\CST-227\Activity1\CarClassLibrary\obj\Debug\net5.0\CarClassLibrary.dll
 C:\Users\moise\OneDrive\repos\CST-227\Activity1\CarClassLibrary\obj\Debug\net5.0\ref\CarClassLibrary.dll
 C:\Users\moise\OneDrive\repos\CST-227\Activity1\CarClassLibrary\obj\Debug\net5.0\CarClassLibrary.pdb
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarClassLibrary\bin\Debug\net5.0\CarClassLibrary.deps.json
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarClassLibrary\bin\Debug\net5.0\CarClassLibrary.dll
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarClassLibrary\bin\Debug\net5.0\ref\CarClassLibrary.dll
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarClassLibrary\bin\Debug\net5.0\CarClassLibrary.pdb
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarClassLibrary\obj\Debug\net5.0\CarClassLibrary.csprojAssemblyReference.cache
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarClassLibrary\obj\Debug\net5.0\CarClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarClassLibrary\obj\Debug\net5.0\CarClassLibrary.AssemblyInfoInputs.cache
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarClassLibrary\obj\Debug\net5.0\CarClassLibrary.AssemblyInfo.cs
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarClassLibrary\obj\Debug\net5.0\CarClassLibrary.csproj.CoreCompileInputs.cache
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarClassLibrary\obj\Debug\net5.0\CarClassLibrary.dll
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarClassLibrary\obj\Debug\net5.0\ref\CarClassLibrary.dll
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarClassLibrary\obj\Debug\net5.0\CarClassLibrary.pdb

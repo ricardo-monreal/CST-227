@@ -20,7 +20,7 @@ namespace CarShopConsoleApp
                 switch (action)
                 {
                     case 1:
-                        Console.WriteLine("YOu chose to add a car to the inventory");
+                        Console.WriteLine("You chose to add a car to the inventory");
 
                         string carMake = "";
                         string carModel = "";
@@ -80,10 +80,39 @@ namespace CarShopConsoleApp
         static public int chooseAction()
         {
             int choice = 0;
-            Console.WriteLine("Choose an action: (0) to quit, (1) to add a new car to the inventory, (2) add car to shopping cart, (3) to checkout");
+            bool isValid = false;
 
-            choice = int.Parse(Console.ReadLine());
+            do
+            {
+              Console.WriteLine("Choose an action: (0) to quit, (1) to add a new car to the inventory, (2) add car to shopping cart, (3) to checkout");
+
+                isValid = int.TryParse(Console.ReadLine(), out choice)
+                      && choice >= 0
+                      && choice <= 3;
+
+                    if (!isValid)
+                    {
+                        Console.WriteLine("Please enter the correct number");
+                    }
+
+            } while (!isValid);
+
+
+            //string input = Console.ReadLine();
+
+            //try
+            //{
+            //    choice = Int32.Parse(input);
+            //}
+            //catch (Exception)
+            //{
+            //    Console.WriteLine($"Unable to parse '{input}");
+
+            //}
+
+            //choice = int.Parse(Console.ReadLine());
             return choice;
+           
         }
     }
 }

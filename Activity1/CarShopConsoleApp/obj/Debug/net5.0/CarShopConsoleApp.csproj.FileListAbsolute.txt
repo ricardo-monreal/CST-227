@@ -17,3 +17,22 @@ C:\Users\moise\OneDrive\repos\CST-227\Activity1\CarShopConsoleApp\obj\Debug\net5
 C:\Users\moise\OneDrive\repos\CST-227\Activity1\CarShopConsoleApp\obj\Debug\net5.0\ref\CarShopConsoleApp.dll
 C:\Users\moise\OneDrive\repos\CST-227\Activity1\CarShopConsoleApp\obj\Debug\net5.0\CarShopConsoleApp.pdb
 C:\Users\moise\OneDrive\repos\CST-227\Activity1\CarShopConsoleApp\obj\Debug\net5.0\CarShopConsoleApp.genruntimeconfig.cache
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\bin\Debug\net5.0\CarShopConsoleApp.exe
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\bin\Debug\net5.0\CarShopConsoleApp.deps.json
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\bin\Debug\net5.0\CarShopConsoleApp.runtimeconfig.json
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\bin\Debug\net5.0\CarShopConsoleApp.runtimeconfig.dev.json
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\bin\Debug\net5.0\CarShopConsoleApp.dll
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\bin\Debug\net5.0\ref\CarShopConsoleApp.dll
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\bin\Debug\net5.0\CarShopConsoleApp.pdb
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\bin\Debug\net5.0\CarClassLibrary.dll
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\bin\Debug\net5.0\CarClassLibrary.pdb
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\obj\Debug\net5.0\CarShopConsoleApp.csprojAssemblyReference.cache
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\obj\Debug\net5.0\CarShopConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\obj\Debug\net5.0\CarShopConsoleApp.AssemblyInfoInputs.cache
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\obj\Debug\net5.0\CarShopConsoleApp.AssemblyInfo.cs
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\obj\Debug\net5.0\CarShopConsoleApp.csproj.CoreCompileInputs.cache
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\obj\Debug\net5.0\CarShopConsoleApp.csproj.CopyComplete
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\obj\Debug\net5.0\CarShopConsoleApp.dll
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\obj\Debug\net5.0\ref\CarShopConsoleApp.dll
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\obj\Debug\net5.0\CarShopConsoleApp.pdb
+\\sunlife.loc\users\ricardo.monreal\my documents\GitHub\CST-227\Activity1\CarShopConsoleApp\obj\Debug\net5.0\CarShopConsoleApp.genruntimeconfig.cache
