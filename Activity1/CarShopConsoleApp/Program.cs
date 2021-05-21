@@ -8,7 +8,7 @@ namespace CarShopConsoleApp
         static void Main(string[] args)
         {
             // show greeting
-            Console.WriteLine("Welcome to the CST-227 Car store.");
+            Console.WriteLine("################ Welcome to the CST-227 Car store ################");
             
             Store s = new Store();
             // show main menu
@@ -23,13 +23,13 @@ namespace CarShopConsoleApp
                 {
                     // add cars to inventory
                     case 1:
-                        Console.WriteLine("You chose to add a car to the inventory");
+                        Console.WriteLine("\nYou chose to add a car to the inventory");
 
                         string carMake = "";
                         string carModel = "";
                         decimal carPrice = 0.0m;
 
-                        Console.WriteLine("What is the car make? Toyota, Honda, Ford, etc...");
+                        Console.WriteLine("\nWhat is the car make? Toyota, Honda, Ford, etc...");
                         carMake = Console.ReadLine();
 
                         Console.WriteLine("What is the car model? Corolla, Civic, Mustang, etc...");
@@ -120,7 +120,12 @@ namespace CarShopConsoleApp
 
             do
             {
-              Console.WriteLine("Choose an action: (0) to quit, (1) to add a new car to the inventory, (2) add car to shopping cart, (3) to checkout");
+              Console.WriteLine("\nChoose an action:\n" +
+                  
+                  "\n(1) Add a car to inventory\n" +
+                  "(2) Add a car to shopping cart\n" +
+                  "(3) Checkout\n"+
+                  "(0) Exit Application\n");
 
                 isValid = int.TryParse(Console.ReadLine(), out choice)
                       && choice >= 0
