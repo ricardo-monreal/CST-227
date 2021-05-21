@@ -7,18 +7,21 @@ namespace CarShopConsoleApp
     {
         static void Main(string[] args)
         {
-
+            // show greeting
             Console.WriteLine("Welcome to the CST-227 Car store.");
-
+            
             Store s = new Store();
+            // show main menu
             int action = chooseAction();
 
+            // menu options
             while (action !=0)
             {
                 Console.WriteLine($"You selected {action}");
 
                 switch (action)
                 {
+                    // add cars to inventory
                     case 1:
                         Console.WriteLine("You chose to add a car to the inventory");
 
@@ -42,7 +45,29 @@ namespace CarShopConsoleApp
 
                         break;
 
+                    // add cars to shopping cart
+                    case 2:
+                        Console.WriteLine("You chose to add a car to the shopping cart\n");
+                        Console.WriteLine("Which car would you like to buy?");
+                        // display inventory available for purchase
+                        printInventory(s);
 
+                        int carChosen = int.Parse(Console.ReadLine());
+
+                        s.ShoppingList.Add(s.CarList[carChosen]);
+
+                        printShoppingCart(s);
+
+                        break;
+
+                    case 3:
+
+                        printShoppingCart(s);
+
+                        Console.WriteLine($"The total cost of your items is : {s.Checkout()}");
+
+
+                        break;
                     default:
                         break;
                 }
@@ -67,12 +92,23 @@ namespace CarShopConsoleApp
             //Console.ReadLine();
         }
 
-        private static void printInventory(Store s)
+        private static void printShoppingCart(Store s)
         {
-            foreach (Car c in s.CarList)
+            Console.WriteLine("cars chosen to buy");
+            for (int i = 0; i < s.ShoppingList.Count; i++)
             {
                 //Console.WriteLine($"Car: {c.Make}, {c.Model}, {c.Price}");
-                Console.WriteLine($"Car: {c}");
+                Console.WriteLine($"Car #:{i} {s.ShoppingList[i]}");
+
+            }
+        }
+
+        private static void printInventory(Store s)
+        {
+            for (int i = 0; i < s.CarList.Count; i++)
+            {
+                //Console.WriteLine($"Car: {c.Make}, {c.Model}, {c.Price}");
+                Console.WriteLine($"Car #:{i} {s.CarList[i]}");
 
             }
         }
