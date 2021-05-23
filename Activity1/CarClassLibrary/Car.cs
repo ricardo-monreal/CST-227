@@ -12,6 +12,10 @@ namespace CarClassLibrary
         public string Make { get; set; }
         public string Model { get; set; }
         public decimal Price { get; set; }
+        // Console application coding challenge properties
+        public string Color { get; set; }
+        //public bool isNew { get; set; }
+        public int Year { get; set;  }
 
 
         // constructor with default values
@@ -20,19 +24,26 @@ namespace CarClassLibrary
             Make = "Not set";
             Model = "Not set";
             Price = 0.00m;
+            // challenge properties
+            Color = "Not set";
+            //isNew = false;
+            Year = 1900;
         }
 
         // constructor with 3 parameters
-        public Car(string a, string b, decimal c)
+        public Car(string a, string b, decimal c, string d, int e)
         {
             Make = a;
             Model = b;
             Price = c;
+            Color = d;
+            Year = e;
+
         }
 
         override public string ToString()
         {
-            return $"Make: {Make}, Model: {Model}, Price: ${Price}";
+            return $"Make: {Make}, Model: {Model}, Color: {Color}, Year: {Year}, Price: ${Price}";
         }
     }
 }
