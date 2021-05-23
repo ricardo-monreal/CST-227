@@ -1,0 +1,13 @@
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarShopGUI\bin\Debug\CarShopGUI.exe.config
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarShopGUI\bin\Debug\CarShopGUI.exe
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarShopGUI\bin\Debug\CarShopGUI.pdb
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarShopGUI\obj\Debug\CarShopGUI.csprojAssemblyReference.cache
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarShopGUI\obj\Debug\CarShopGUI.Form1.resources
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarShopGUI\obj\Debug\CarShopGUI.Properties.Resources.resources
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarShopGUI\obj\Debug\CarShopGUI.csproj.GenerateResource.cache
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarShopGUI\obj\Debug\CarShopGUI.csproj.CoreCompileInputs.cache
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarShopGUI\obj\Debug\CarShopGUI.exe
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarShopGUI\obj\Debug\CarShopGUI.pdb
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarShopGUI\bin\Debug\CarClassLibrary2.dll
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarShopGUI\bin\Debug\CarClassLibrary2.pdb
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarShopGUI\obj\Debug\CarShopGUI.csproj.CopyComplete

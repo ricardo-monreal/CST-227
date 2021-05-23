@@ -1,0 +1,6 @@
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarClassLibrary2\bin\Debug\CarClassLibrary2.dll
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarClassLibrary2\bin\Debug\CarClassLibrary2.pdb
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarClassLibrary2\obj\Debug\CarClassLibrary.csprojAssemblyReference.cache
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarClassLibrary2\obj\Debug\CarClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarClassLibrary2\obj\Debug\CarClassLibrary2.dll
+C:\Users\moise\OneDrive\source\repos\CST-227\CST-227\Activity1\CarClassLibrary2\obj\Debug\CarClassLibrary2.pdb
