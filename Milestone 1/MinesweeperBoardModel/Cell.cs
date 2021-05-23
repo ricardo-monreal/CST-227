@@ -14,6 +14,7 @@ namespace MinesweeperBoardModel
         public bool Visited { get; set; }
         public bool Live { get; set; }
 
+        // constructor with default values
         public Cell()
         {
             RowNumber = -1;
