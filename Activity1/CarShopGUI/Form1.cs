@@ -33,17 +33,44 @@ namespace CarShopGUI
         private void button1_Click(object sender, EventArgs e)
         {
             //MessageBox.Show("Create car");
-            Car car = new Car(txt_Make.Text, txt_Model.Text, txt_Color.Text, int.Parse(txt_Year.Text), decimal.Parse(txt_Price.Text));
-            //MessageBox.Show(c.ToString());
-            myStore.CarList.Add(car);
-            carInventoryBindingSource.ResetBindings(false);
-            // empty list after clicking button
-            txt_Make.Text = String.Empty;
-            txt_Model.Text = String.Empty;
-            txt_Color.Text = String.Empty;
-            txt_Year.Text = String.Empty;
-            txt_Price.Text = String.Empty;
+
+            int intValue = 0;
+            decimal decValue = 0.0m;
+            var isValid = true;
+
+
+            // Code challenge - Error Checking
+            if (!Int32.TryParse(txt_Year.Text, out intValue))
+            {
+                isValid = false;
+                MessageBox.Show($"Please enter a numeric value for field {lbl_Year.Text}"); 
+            }
+
+            if (!decimal.TryParse(txt_Price.Text, out decValue))
+            {
+                isValid = false;
+                MessageBox.Show($"Please enter a numeric value for field {lbl_Price.Text}");
+
+            }
+
+            if (!txt_Color.Text.All(chr => char.IsLetter(chr)))
+            {
+                isValid = false;
+                MessageBox.Show("Color field only allows Alphabetic characters");
+            }
+
+            // add car to inventory if fields are valid
+            if (isValid == true)
+            {
+
+                Car car = new Car(txt_Make.Text, txt_Model.Text, txt_Color.Text, intValue, decValue);
+             
+                myStore.CarList.Add(car);
+                carInventoryBindingSource.ResetBindings(false);
+                // empty list after clicking button
+                clearFields();
             
+            }
         }
 
         private void btn_addToCart_Click(object sender, EventArgs e)
@@ -53,6 +80,7 @@ namespace CarShopGUI
 
             // add that item to the cart
             myStore.ShoppingList.Add(selected);
+          
 
             // update listbox control
             cartBindingSource.ResetBindings(false);
@@ -77,6 +105,16 @@ namespace CarShopGUI
 
             lst_ShoppingCart.DataSource = cartBindingSource;
             lst_ShoppingCart.DisplayMember = ToString();
+        }
+
+        // clear fields
+        private void clearFields()
+        {
+            txt_Make.Text = String.Empty;
+            txt_Model.Text = String.Empty;
+            txt_Color.Text = String.Empty;
+            txt_Year.Text = String.Empty;
+            txt_Price.Text = String.Empty;
         }
     }
 }
