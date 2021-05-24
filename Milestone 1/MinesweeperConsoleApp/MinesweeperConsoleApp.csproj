@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MinesweeperBoardModel\MinesweeperBoardModel.csproj">
+      <Project>{ce8d67d5-752d-4c98-8f38-bae0746566fb}</Project>
+      <Name>MinesweeperBoardModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

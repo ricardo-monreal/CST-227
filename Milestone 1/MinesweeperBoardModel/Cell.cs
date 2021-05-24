@@ -6,21 +6,27 @@ using System.Threading.Tasks;
 
 namespace MinesweeperBoardModel
 {
-    class Cell
+    public class Cell
     {
         public int RowNumber { get; set; }
         public int ColumnNumber { get; set; }
 
-        public bool Visited { get; set; }
-        public bool Live { get; set; }
+        public bool isVisited { get; set; }
+        public bool isLive { get; set; }
+        public int Neighbors { get; set; }
 
-        // constructor with default values
+
+
+        //constructor with default values
         public Cell()
         {
             RowNumber = -1;
             ColumnNumber = -1;
-            Visited = false;
-            Live = false;
+            isVisited = false;
+            isLive = false;
+            Neighbors = 0;
+
+            
         }
 
         // Cell constructor
@@ -30,6 +36,6 @@ namespace MinesweeperBoardModel
             ColumnNumber = y;
         }
 
-
+      
     }
 }
