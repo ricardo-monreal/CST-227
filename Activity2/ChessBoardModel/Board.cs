@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChessBoardModel
 {
-    class Board
+    public class Board
     {
         // set the size of the board
         public int Size { get; set; }
