@@ -1,0 +1,10 @@
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardConsoleAppp\bin\Debug\ChessBoardConsoleAppp.exe.config
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardConsoleAppp\bin\Debug\ChessBoardConsoleAppp.exe
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardConsoleAppp\bin\Debug\ChessBoardConsoleAppp.pdb
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardConsoleAppp\bin\Debug\ClassLibrary1.dll
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardConsoleAppp\bin\Debug\ClassLibrary1.pdb
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardConsoleAppp\obj\Debug\ChessBoardConsoleAppp.csprojAssemblyReference.cache
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardConsoleAppp\obj\Debug\ChessBoardConsoleAppp.csproj.CoreCompileInputs.cache
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardConsoleAppp\obj\Debug\ChessBoardConsoleAppp.csproj.CopyComplete
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardConsoleAppp\obj\Debug\ChessBoardConsoleAppp.exe
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardConsoleAppp\obj\Debug\ChessBoardConsoleAppp.pdb
