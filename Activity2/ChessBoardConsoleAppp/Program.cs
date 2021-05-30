@@ -102,25 +102,18 @@ namespace ChessBoardConsoleAppp
         static void printBoard(Board myBoard)
         {
 
+         
 
+            
 
             for (int i = 0; i < myBoard.Size; i++)
             {
-
-
+                
                 Console.WriteLine("+--");
-
 
                 for (int j = 0; j < myBoard.Size; j++)
                 {
-
-
-
-
                     Cell c = myBoard.theGrid[i, j];
-
-
-
 
                     if (c.CurrentlyOccupied == true)
                     {
@@ -133,22 +126,17 @@ namespace ChessBoardConsoleAppp
                     else
                     {
                         Console.Write("|  ");
-
                     }
 
-
                 }
-                //Console.Write("---+");
 
                 Console.WriteLine("|");
-                //
-
-                //Console.Write("|");
-
+                
             }
             Console.WriteLine("=================================");
         }
 
+       
 
         // error checking method
         public static int UserIntInput()
