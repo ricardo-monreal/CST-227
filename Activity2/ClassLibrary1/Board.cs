@@ -52,25 +52,75 @@ namespace ChessBoardModel
             switch (chessPiece)
             {
                 case "Knight":
-                    theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber + 1].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber -1].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber + 1].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber - 1].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber + 2].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber - 2].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber + 2].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber - 2].LegalNextMove = true;
+                    if (CheckGridSpace(currentCell.RowNumber + 2, currentCell.ColumnNumber + 1))
+                    {
+                        theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber + 1].LegalNextMove = true;
+                    }
+                    if (CheckGridSpace(currentCell.RowNumber + 2, currentCell.ColumnNumber - 1))
+                    {
+                        theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber -1].LegalNextMove = true;
+                    }
+                    if (CheckGridSpace(currentCell.RowNumber - 2, currentCell.ColumnNumber + 1))
+                    {
+                        theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber + 1].LegalNextMove = true;
+                    }
+                    if (CheckGridSpace(currentCell.RowNumber - 2, currentCell.ColumnNumber - 1))
+                    {
+                        theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber - 1].LegalNextMove = true;
+                    }
+                    if (CheckGridSpace(currentCell.RowNumber + 1, currentCell.ColumnNumber + 2))
+                    {
+                        theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber + 2].LegalNextMove = true;
+                    }
+                    if (CheckGridSpace(currentCell.RowNumber + 1, currentCell.ColumnNumber - 2))
+                    {
+                        theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber - 2].LegalNextMove = true;
+                    }
+                    if (CheckGridSpace(currentCell.RowNumber - 1, currentCell.ColumnNumber + 2))
+                    {
+                        theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber + 2].LegalNextMove = true;
+                    }
+                    if (CheckGridSpace(currentCell.RowNumber - 1, currentCell.ColumnNumber - 2))
+                    {
+                        theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber - 2].LegalNextMove = true;
+                    }
+
                     break;
 
                 case "King":
-                    theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber, currentCell.ColumnNumber + 1].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber + 1].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber - 1].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber, currentCell.ColumnNumber - 1].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber - 1].LegalNextMove = true;
-                    theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber + 1].LegalNextMove = true;
+                    if (CheckGridSpace(currentCell.RowNumber -1, currentCell.ColumnNumber))
+                    {
+                        theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber].LegalNextMove = true;
+                    }
+                    if (CheckGridSpace(currentCell.RowNumber, currentCell.ColumnNumber +1))
+                    {
+                        theGrid[currentCell.RowNumber, currentCell.ColumnNumber + 1].LegalNextMove = true;
+                    }
+                    if (CheckGridSpace(currentCell.RowNumber +1, currentCell.ColumnNumber +1))
+                    {
+                        theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber + 1].LegalNextMove = true;
+                    }
+                    if (CheckGridSpace(currentCell.RowNumber + 1, currentCell.ColumnNumber))
+                    {
+                        theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber].LegalNextMove = true;
+                    }
+                    if (CheckGridSpace(currentCell.RowNumber +1, currentCell.ColumnNumber -1))
+                    {
+                        theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber - 1].LegalNextMove = true;
+                    }
+                    if (CheckGridSpace(currentCell.RowNumber, currentCell.ColumnNumber -1))
+                    {
+                        theGrid[currentCell.RowNumber, currentCell.ColumnNumber - 1].LegalNextMove = true;
+                    }
+                    if (CheckGridSpace(currentCell.RowNumber -1, currentCell.ColumnNumber -1))
+                    {
+                        theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber - 1].LegalNextMove = true;
+                    }
+                    if (CheckGridSpace(currentCell.RowNumber -1, currentCell.ColumnNumber +1))
+                    {
+                        theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber + 1].LegalNextMove = true;
+                    }
+
                     break;
 
                 case "Rook":

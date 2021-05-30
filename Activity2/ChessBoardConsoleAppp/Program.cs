@@ -42,7 +42,7 @@ namespace ChessBoardConsoleAppp
         {
             string choice;
             
-
+            // selection option will run until a valid selection has been made
             do
             {
                 Console.WriteLine("Please select a chess piece\n");
