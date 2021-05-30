@@ -60,41 +60,77 @@ namespace ChessBoardGUI
             // get the row and column number of the button clicked
             Button clickedButton = (Button)sender;
             Point location = (Point)clickedButton.Tag;
+            
 
             int x = location.X;
             int y = location.Y;
 
             Cell currentCell = myBoard.theGrid[x, y];
 
-
+            
             // determine legal next moves, select current cell and selected drop down menu item
             myBoard.MarkNextLegalMoves(currentCell, (string)cb_ChessPieces.SelectedItem);
 
+
+            updateButtonLables();
+            for (int i = 0; i < myBoard.Size; i++)
+            {
+                for (int j = 0; j < myBoard.Size; j++)
+                {
+                    btnGrid[i, j].BackColor = default(Color);
+                }
+                
+            }
+            (sender as Button).BackColor = Color.Cornsilk;
             // update the text on each button
+            //for (int i = 0; i < myBoard.Size; i++)
+            //{
+            //    for (int j = 0; j < myBoard.Size; j++)
+            //    {
+            //        // clear the board
+            //        btnGrid[i, j].Text = "";
+
+            //        // determine if legal move or occupied
+            //        if (myBoard.theGrid[i,j].LegalNextMove == true)
+            //        {
+            //            btnGrid[i, j].Text = "Legal";
+            //        }
+            //        else if (myBoard.theGrid[i, j].CurrentlyOccupied == true)
+            //        {
+
+            //            btnGrid[i, j].Text = (string)cb_ChessPieces.SelectedItem;
+            //        }
+
+            //    }
+            //    (sender as Button).BackColor = Color.Cornsilk;
+            //}
+
+
+        }
+
+        private void updateButtonLables()
+        {
             for (int i = 0; i < myBoard.Size; i++)
             {
                 for (int j = 0; j < myBoard.Size; j++)
                 {
                     // clear the board
                     btnGrid[i, j].Text = "";
-
-                    // determine if legal move or occupied
-                    if (myBoard.theGrid[i,j].LegalNextMove == true)
+                    if (myBoard.theGrid[i, j].CurrentlyOccupied)
+                    {
+                        btnGrid[i, j].Text = (string)cb_ChessPieces.SelectedItem;
+                    }
+                    if (myBoard.theGrid[i,j].LegalNextMove)
                     {
                         btnGrid[i, j].Text = "Legal";
                     }
-                    else if (myBoard.theGrid[i,j].CurrentlyOccupied == true)
-                    {
-                        btnGrid[i, j].Text = (string)cb_ChessPieces.SelectedItem; 
-                    }
-                    else if (myBoard.theGrid[i,j].CurrentlyOccupied == true)
-                    {
-                        btnGrid[i, j].Text = "select a piece";
-                    }
                 }
             }
+        }
 
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

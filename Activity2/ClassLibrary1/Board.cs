@@ -44,9 +44,11 @@ namespace ChessBoardModel
                 {
                     theGrid[i, j].LegalNextMove = false;
                     theGrid[i, j].CurrentlyOccupied = false;
-                   
+
                 }
+                
             }
+
 
 
             // find all legal moves and mark the cell as legal moves
@@ -59,7 +61,7 @@ namespace ChessBoardModel
                     }
                     if (CheckGridSpace(currentCell.RowNumber + 2, currentCell.ColumnNumber - 1))
                     {
-                        theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber -1].LegalNextMove = true;
+                        theGrid[currentCell.RowNumber + 2, currentCell.ColumnNumber - 1].LegalNextMove = true;
                     }
                     if (CheckGridSpace(currentCell.RowNumber - 2, currentCell.ColumnNumber + 1))
                     {
@@ -89,15 +91,15 @@ namespace ChessBoardModel
                     break;
 
                 case "King":
-                    if (CheckGridSpace(currentCell.RowNumber -1, currentCell.ColumnNumber))
+                    if (CheckGridSpace(currentCell.RowNumber - 1, currentCell.ColumnNumber))
                     {
                         theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber].LegalNextMove = true;
                     }
-                    if (CheckGridSpace(currentCell.RowNumber, currentCell.ColumnNumber +1))
+                    if (CheckGridSpace(currentCell.RowNumber, currentCell.ColumnNumber + 1))
                     {
                         theGrid[currentCell.RowNumber, currentCell.ColumnNumber + 1].LegalNextMove = true;
                     }
-                    if (CheckGridSpace(currentCell.RowNumber +1, currentCell.ColumnNumber +1))
+                    if (CheckGridSpace(currentCell.RowNumber + 1, currentCell.ColumnNumber + 1))
                     {
                         theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber + 1].LegalNextMove = true;
                     }
@@ -105,19 +107,19 @@ namespace ChessBoardModel
                     {
                         theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber].LegalNextMove = true;
                     }
-                    if (CheckGridSpace(currentCell.RowNumber +1, currentCell.ColumnNumber -1))
+                    if (CheckGridSpace(currentCell.RowNumber + 1, currentCell.ColumnNumber - 1))
                     {
                         theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber - 1].LegalNextMove = true;
                     }
-                    if (CheckGridSpace(currentCell.RowNumber, currentCell.ColumnNumber -1))
+                    if (CheckGridSpace(currentCell.RowNumber, currentCell.ColumnNumber - 1))
                     {
                         theGrid[currentCell.RowNumber, currentCell.ColumnNumber - 1].LegalNextMove = true;
                     }
-                    if (CheckGridSpace(currentCell.RowNumber -1, currentCell.ColumnNumber -1))
+                    if (CheckGridSpace(currentCell.RowNumber - 1, currentCell.ColumnNumber - 1))
                     {
                         theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber - 1].LegalNextMove = true;
                     }
-                    if (CheckGridSpace(currentCell.RowNumber -1, currentCell.ColumnNumber +1))
+                    if (CheckGridSpace(currentCell.RowNumber - 1, currentCell.ColumnNumber + 1))
                     {
                         theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber + 1].LegalNextMove = true;
                     }
@@ -126,6 +128,7 @@ namespace ChessBoardModel
 
                 case "Rook":
                     CheckValidRookSpaces(currentCell);
+                    
                     break;
 
                 case "Bishop":
