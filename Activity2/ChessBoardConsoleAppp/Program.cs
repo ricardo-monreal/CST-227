@@ -101,26 +101,50 @@ namespace ChessBoardConsoleAppp
         // print chess board to the console
         static void printBoard(Board myBoard)
         {
+
+
+
             for (int i = 0; i < myBoard.Size; i++)
             {
+
+
+                Console.WriteLine("+--");
+
+
                 for (int j = 0; j < myBoard.Size; j++)
                 {
+
+
+
+
                     Cell c = myBoard.theGrid[i, j];
+
+
+
 
                     if (c.CurrentlyOccupied == true)
                     {
-                        Console.Write("x");
+                        Console.Write("| x ");
                     }
                     else if (c.LegalNextMove == true)
                     {
-                        Console.Write("+");
+                        Console.Write("| + ");
                     }
                     else
                     {
-                        Console.Write(".");
+                        Console.Write("|  ");
+
                     }
+
+
                 }
-                Console.WriteLine();
+                //Console.Write("---+");
+
+                Console.WriteLine("|");
+                //
+
+                //Console.Write("|");
+
             }
             Console.WriteLine("=================================");
         }
