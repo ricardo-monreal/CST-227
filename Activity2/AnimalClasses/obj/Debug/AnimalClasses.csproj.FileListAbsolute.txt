@@ -1,0 +1,7 @@
+C:\Users\moise\source\repos\CST-227\Activity2\AnimalClasses\bin\Debug\AnimalClasses.exe.config
+C:\Users\moise\source\repos\CST-227\Activity2\AnimalClasses\bin\Debug\AnimalClasses.exe
+C:\Users\moise\source\repos\CST-227\Activity2\AnimalClasses\bin\Debug\AnimalClasses.pdb
+C:\Users\moise\source\repos\CST-227\Activity2\AnimalClasses\obj\Debug\AnimalClasses.csprojAssemblyReference.cache
+C:\Users\moise\source\repos\CST-227\Activity2\AnimalClasses\obj\Debug\AnimalClasses.csproj.CoreCompileInputs.cache
+C:\Users\moise\source\repos\CST-227\Activity2\AnimalClasses\obj\Debug\AnimalClasses.exe
+C:\Users\moise\source\repos\CST-227\Activity2\AnimalClasses\obj\Debug\AnimalClasses.pdb
