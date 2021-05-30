@@ -127,8 +127,8 @@ namespace ChessBoardModel
                     break;
 
                 case "Rook":
-                    CheckValidRookSpaces(currentCell);
                     
+                    CheckValidRookSpaces(currentCell);
                     break;
 
                 case "Bishop":
@@ -160,6 +160,7 @@ namespace ChessBoardModel
         {
             int column = current.ColumnNumber;
             int row = current.RowNumber;
+            
             //check right
             for (int i = column; i < Size; i++)
             {
