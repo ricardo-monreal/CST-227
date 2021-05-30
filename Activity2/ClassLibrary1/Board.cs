@@ -44,6 +44,7 @@ namespace ChessBoardModel
                 {
                     theGrid[i, j].LegalNextMove = false;
                     theGrid[i, j].CurrentlyOccupied = false;
+                   
                 }
             }
 
@@ -143,6 +144,8 @@ namespace ChessBoardModel
 
         }
 
+        
+
         // check if input is within the grid values
         public bool CheckGridSpace(int r, int c)
         {
@@ -218,7 +221,7 @@ namespace ChessBoardModel
             // check bottom left
             for (int i = row; i < Size; i++)
             {
-                if (CheckGridSpace(i,  - (current.RowNumber - i)))
+                if (CheckGridSpace(i, column - (current.RowNumber - i)))
                 {
                     theGrid[i, column - (current.RowNumber - i)].LegalNextMove = true;
                 }

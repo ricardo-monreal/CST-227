@@ -1,0 +1,13 @@
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardGUI\bin\Debug\ChessBoardGUI.exe.config
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardGUI\bin\Debug\ChessBoardGUI.exe
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardGUI\bin\Debug\ChessBoardGUI.pdb
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardGUI\bin\Debug\ClassLibrary1.dll
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardGUI\bin\Debug\ClassLibrary1.pdb
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardGUI\obj\Debug\ChessBoardGUI.csprojAssemblyReference.cache
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardGUI\obj\Debug\ChessBoardGUI.Form1.resources
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardGUI\obj\Debug\ChessBoardGUI.Properties.Resources.resources
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardGUI\obj\Debug\ChessBoardGUI.csproj.GenerateResource.cache
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardGUI\obj\Debug\ChessBoardGUI.csproj.CoreCompileInputs.cache
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardGUI\obj\Debug\ChessBoardGUI.csproj.CopyComplete
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardGUI\obj\Debug\ChessBoardGUI.exe
+C:\Users\moise\source\repos\CST-227\Activity2\ChessBoardGUI\obj\Debug\ChessBoardGUI.pdb
