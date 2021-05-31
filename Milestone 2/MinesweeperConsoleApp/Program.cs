@@ -32,7 +32,7 @@ namespace MinesweeperConsoleApp
 
                 board = new GameBoard(size);
 
-                Console.Clear();
+                //Console.Clear();
             }
 
             bool gameOver = false;
