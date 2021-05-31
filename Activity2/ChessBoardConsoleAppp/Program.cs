@@ -134,14 +134,10 @@ namespace ChessBoardConsoleAppp
                     {
                         Console.Write("| L ");
                     }
-
-                    //if (j == columns -1)
-                    //{
-                    //    Console.Write($"| {i}");
-                    //}
-
                 }
-                    PrintLineSeparator(columns);
+                
+
+                PrintLineSeparator(columns);
 
 
 
