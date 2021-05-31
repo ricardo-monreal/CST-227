@@ -47,7 +47,7 @@ namespace MinesweeperConsoleApp
                 // Check for invalid index values
                 if (row < 0 || column < 0 || row >= size || column >= size)
                 {
-                    Console.WriteLine("\nYour selection is outside of the boundaris for the board created");
+                    Console.WriteLine("\nYour selection is outside of the boundaries for the board created");
                     continue;
                 }
 
@@ -91,11 +91,13 @@ namespace MinesweeperConsoleApp
         public static int GetIntInput()
         {
             int choice;
-            if (!int.TryParse(Console.ReadLine(), out choice))
+           
+
+            while (!int.TryParse(Console.ReadLine(), out choice))
             {
-                Console.Out.WriteLine("Please enter an integer value");
-                return -1;
+                Console.Out.WriteLine("Wrong input. Please enter an integer value");
             }
+           
             return choice;
         }
 
