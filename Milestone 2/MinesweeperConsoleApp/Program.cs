@@ -125,7 +125,7 @@ namespace MinesweeperConsoleApp
                 for (int col = 0; col < columns; col++)
                 {
                     // Print row col element
-                    Console.Out.Write(": ");
+                    Console.Write(": ");
                     if (board.theGrid[row, col].isVisited)
                     {
                         Console.Write(board.theGrid[row, col].LiveNeighbors);

@@ -102,41 +102,62 @@ namespace ChessBoardConsoleAppp
         static void printBoard(Board myBoard)
         {
 
-         
 
-            
+            int columns = myBoard.theGrid.GetLength(1);
+            int rows = myBoard.theGrid.GetLength(0);
 
+            for (int idx = 0; idx < columns; idx++)
+            {
+                if (idx == 0)
+                {
+                    Console.Write("");
+                }
+                Console.Write($" {idx}  ");
+            }
+
+            PrintLineSeparator(columns);
             for (int i = 0; i < myBoard.Size; i++)
             {
                 
-                Console.WriteLine("+--");
+                //Console.WriteLine("+--");
 
                 for (int j = 0; j < myBoard.Size; j++)
                 {
+                    Console.Write("|   ");
                     Cell c = myBoard.theGrid[i, j];
 
                     if (c.CurrentlyOccupied == true)
                     {
-                        Console.Write("| x ");
+                        Console.Write("| X ");
                     }
                     else if (c.LegalNextMove == true)
                     {
-                        Console.Write("| + ");
+                        Console.Write("| L ");
                     }
-                    else
-                    {
-                        Console.Write("|  ");
-                    }
+
+                    //if (j == columns -1)
+                    //{
+                    //    Console.Write($"| {i}");
+                    //}
 
                 }
+                    PrintLineSeparator(columns);
 
-                Console.WriteLine("|");
-                
+
+
             }
             Console.WriteLine("=================================");
         }
 
-       
+       private static void PrintLineSeparator(int nbr)
+        {
+            Console.Write("\n+");
+            for (int idx = 0; idx < nbr; idx++)
+            {
+                Console.Write("---+");
+            }
+            Console.Write("\n");
+        }
 
         // error checking method
         public static int UserIntInput()
