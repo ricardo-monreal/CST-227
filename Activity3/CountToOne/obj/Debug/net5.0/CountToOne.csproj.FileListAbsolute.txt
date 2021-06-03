@@ -1,0 +1,16 @@
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\bin\Debug\net5.0\CountToOne.exe
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\bin\Debug\net5.0\CountToOne.deps.json
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\bin\Debug\net5.0\CountToOne.runtimeconfig.json
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\bin\Debug\net5.0\CountToOne.runtimeconfig.dev.json
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\bin\Debug\net5.0\CountToOne.dll
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\bin\Debug\net5.0\ref\CountToOne.dll
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\bin\Debug\net5.0\CountToOne.pdb
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\obj\Debug\net5.0\CountToOne.csprojAssemblyReference.cache
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\obj\Debug\net5.0\CountToOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\obj\Debug\net5.0\CountToOne.AssemblyInfoInputs.cache
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\obj\Debug\net5.0\CountToOne.AssemblyInfo.cs
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\obj\Debug\net5.0\CountToOne.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\obj\Debug\net5.0\CountToOne.dll
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\obj\Debug\net5.0\ref\CountToOne.dll
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\obj\Debug\net5.0\CountToOne.pdb
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\CountToOne\obj\Debug\net5.0\CountToOne.genruntimeconfig.cache

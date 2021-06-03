@@ -1,0 +1,16 @@
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\bin\Debug\net5.0\GCD.exe
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\bin\Debug\net5.0\GCD.deps.json
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\bin\Debug\net5.0\GCD.runtimeconfig.json
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\bin\Debug\net5.0\GCD.runtimeconfig.dev.json
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\bin\Debug\net5.0\GCD.dll
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\bin\Debug\net5.0\ref\GCD.dll
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\bin\Debug\net5.0\GCD.pdb
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\obj\Debug\net5.0\GCD.csprojAssemblyReference.cache
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\obj\Debug\net5.0\GCD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\obj\Debug\net5.0\GCD.AssemblyInfoInputs.cache
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\obj\Debug\net5.0\GCD.AssemblyInfo.cs
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\obj\Debug\net5.0\GCD.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\obj\Debug\net5.0\GCD.dll
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\obj\Debug\net5.0\ref\GCD.dll
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\obj\Debug\net5.0\GCD.pdb
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\GCD\obj\Debug\net5.0\GCD.genruntimeconfig.cache
