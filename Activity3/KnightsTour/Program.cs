@@ -115,7 +115,7 @@ namespace KnightsTour
             {
                 for (int y = 0; y < BoardSize; y++)
                 {
-                    Console.WriteLine(solution[x, y] + " ");
+                    Console.WriteLine($"Square {solution[x, y]} has been marked as visited");
                 }
                 
             }

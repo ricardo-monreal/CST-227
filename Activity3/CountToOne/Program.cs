@@ -6,7 +6,7 @@ namespace CountToOne
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter an inter. I will do some math and eventually arrive at 1 ");
+            Console.WriteLine("Please enter an integer. I will do some math and eventually arrive at 1 ");
             int startingNumber = int.Parse(Console.ReadLine());
             int x = countToOne(startingNumber);
             Console.ReadLine();
