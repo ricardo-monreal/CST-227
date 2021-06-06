@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountToOne", "CountToOne\CountToOne.csproj", "{352330E6-0AEA-4602-B0AF-398132A6EC1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountToOne", "CountToOne\CountToOne.csproj", "{352330E6-0AEA-4602-B0AF-398132A6EC1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{75CB721E-674A-411C-8894-574BD40E74D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial", "Factorial\Factorial.csproj", "{75CB721E-674A-411C-8894-574BD40E74D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCD", "GCD\GCD.csproj", "{AE7FF803-F611-4C85-A5A2-DDB8DD97254D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCD", "GCD\GCD.csproj", "{AE7FF803-F611-4C85-A5A2-DDB8DD97254D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnightsTour", "KnightsTour\KnightsTour.csproj", "{CB583C32-DB01-4A71-B6A4-FA7F187727E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{AE7FF803-F611-4C85-A5A2-DDB8DD97254D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE7FF803-F611-4C85-A5A2-DDB8DD97254D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE7FF803-F611-4C85-A5A2-DDB8DD97254D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB583C32-DB01-4A71-B6A4-FA7F187727E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB583C32-DB01-4A71-B6A4-FA7F187727E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB583C32-DB01-4A71-B6A4-FA7F187727E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB583C32-DB01-4A71-B6A4-FA7F187727E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

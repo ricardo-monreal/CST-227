@@ -1,0 +1,7 @@
+C:\Users\moise\source\repos\CST-227\Activity3\KnightsTour\bin\Debug\KnightsTour.exe.config
+C:\Users\moise\source\repos\CST-227\Activity3\KnightsTour\bin\Debug\KnightsTour.exe
+C:\Users\moise\source\repos\CST-227\Activity3\KnightsTour\bin\Debug\KnightsTour.pdb
+C:\Users\moise\source\repos\CST-227\Activity3\KnightsTour\obj\Debug\KnightsTour.csprojAssemblyReference.cache
+C:\Users\moise\source\repos\CST-227\Activity3\KnightsTour\obj\Debug\KnightsTour.csproj.CoreCompileInputs.cache
+C:\Users\moise\source\repos\CST-227\Activity3\KnightsTour\obj\Debug\KnightsTour.exe
+C:\Users\moise\source\repos\CST-227\Activity3\KnightsTour\obj\Debug\KnightsTour.pdb
