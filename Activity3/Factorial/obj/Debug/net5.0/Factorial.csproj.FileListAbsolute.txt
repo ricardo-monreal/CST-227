@@ -13,3 +13,19 @@ C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-22
 C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\Factorial\obj\Debug\net5.0\ref\Factorial.dll
 C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\Factorial\obj\Debug\net5.0\Factorial.pdb
 C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity3\Factorial\obj\Debug\net5.0\Factorial.genruntimeconfig.cache
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\bin\Debug\net5.0\Factorial.exe
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\bin\Debug\net5.0\Factorial.deps.json
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\bin\Debug\net5.0\Factorial.runtimeconfig.json
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\bin\Debug\net5.0\Factorial.runtimeconfig.dev.json
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\bin\Debug\net5.0\Factorial.dll
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\bin\Debug\net5.0\ref\Factorial.dll
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\bin\Debug\net5.0\Factorial.pdb
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\obj\Debug\net5.0\Factorial.csprojAssemblyReference.cache
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\obj\Debug\net5.0\Factorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\obj\Debug\net5.0\Factorial.AssemblyInfoInputs.cache
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\obj\Debug\net5.0\Factorial.AssemblyInfo.cs
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\obj\Debug\net5.0\Factorial.csproj.CoreCompileInputs.cache
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\obj\Debug\net5.0\Factorial.dll
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\obj\Debug\net5.0\ref\Factorial.dll
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\obj\Debug\net5.0\Factorial.pdb
+C:\Users\moise\source\repos\CST-227\Activity3\Factorial\obj\Debug\net5.0\Factorial.genruntimeconfig.cache
