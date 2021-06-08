@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinesweeperConsoleApp", "MinesweeperConsoleApp\MinesweeperConsoleApp.csproj", "{C538C552-E6D1-4197-988D-01B94EF87E8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinesweeperBoardModel", "MinesweeperBoardModel\MinesweeperBoardModel.csproj", "{CE8D67D5-752D-4C98-8F38-BAE0746566FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C538C552-E6D1-4197-988D-01B94EF87E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C538C552-E6D1-4197-988D-01B94EF87E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C538C552-E6D1-4197-988D-01B94EF87E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C538C552-E6D1-4197-988D-01B94EF87E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8D67D5-752D-4C98-8F38-BAE0746566FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8D67D5-752D-4C98-8F38-BAE0746566FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8D67D5-752D-4C98-8F38-BAE0746566FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8D67D5-752D-4C98-8F38-BAE0746566FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1ECCEDB6-87E9-469E-A3E7-A1601BB32211}
+	EndGlobalSection
+EndGlobal
