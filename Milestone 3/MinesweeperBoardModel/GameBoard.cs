@@ -124,28 +124,32 @@ namespace MinesweeperBoardModel
         {
             if (!theGrid[r, c].isVisited && safeCell(r, c))
             {
-                // Mark grid element as visited
+                // Will mark element as visited
                 theGrid[r, c].isVisited = true;
-                // Recursively check all compass directions
+                // will use recursion to check neighbors and check them as visited
                 if (safeCell(r - 1, c))
                 {
-                    if (theGrid[r - 1, c].LiveNeighbors == 0) floodFill(r - 1, c); // N
-                    else theGrid[r - 1, c].isVisited = true; // reach to next and flip it to visited
+                    // will check neighbors to the TOP
+                    if (theGrid[r - 1, c].LiveNeighbors == 0) floodFill(r - 1, c);
+                    else theGrid[r - 1, c].isVisited = true; 
                 }
                 if (safeCell(r, c + 1))
                 {
-                    if (theGrid[r, c + 1].LiveNeighbors == 0) floodFill(r, c + 1); // E
+                    // will check neighbors to the RIGHt
+                    if (theGrid[r, c + 1].LiveNeighbors == 0) floodFill(r, c + 1);
                     else theGrid[r, c + 1].isVisited = true;
                 }
                 if (safeCell(r + 1, c))
                 {
-                    if (theGrid[r + 1, c].LiveNeighbors == 0) floodFill(r + 1, c); // S
+                    // will check neighbors to the BOTTOM 
+                    if (theGrid[r + 1, c].LiveNeighbors == 0) floodFill(r + 1, c); 
                     else theGrid[r + 1, c].isVisited = true;
                 }
                 if (safeCell(r, c - 1))
 
                 {
-                    if (theGrid[r, c - 1].LiveNeighbors == 0) floodFill(r, c - 1); // W
+                    // will check neighbors to the LEFT
+                    if (theGrid[r, c - 1].LiveNeighbors == 0) floodFill(r, c - 1); 
                     else theGrid[r, c - 1].isVisited = true;
                 }
             }
