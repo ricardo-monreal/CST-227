@@ -35,6 +35,8 @@ namespace MinesweeperConsoleApp
                 Console.Clear();
             }
 
+
+            // Game logic / Design
             bool gameOver = false;
             PrintBoard();
             while (!gameOver)
@@ -182,7 +184,8 @@ namespace MinesweeperConsoleApp
                         }
                         else
                         {
-                            Console.Write("~");
+                            // will display if neighbor is safe
+                            Console.Write("░");
                         }
                     }
                     else

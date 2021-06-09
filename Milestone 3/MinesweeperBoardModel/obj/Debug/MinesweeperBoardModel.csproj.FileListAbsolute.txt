@@ -16,3 +16,9 @@ C:\Users\moise\source\repos\CST-227\Milestone 3\MinesweeperBoardModel\obj\Debug\
 C:\Users\moise\source\repos\CST-227\Milestone 3\MinesweeperBoardModel\obj\Debug\MinesweeperBoardModel.csproj.CoreCompileInputs.cache
 C:\Users\moise\source\repos\CST-227\Milestone 3\MinesweeperBoardModel\obj\Debug\MinesweeperBoardModel.dll
 C:\Users\moise\source\repos\CST-227\Milestone 3\MinesweeperBoardModel\obj\Debug\MinesweeperBoardModel.pdb
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Milestone 3\MinesweeperBoardModel\bin\Debug\MinesweeperBoardModel.dll
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Milestone 3\MinesweeperBoardModel\bin\Debug\MinesweeperBoardModel.pdb
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Milestone 3\MinesweeperBoardModel\obj\Debug\MinesweeperBoardModel.csprojAssemblyReference.cache
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Milestone 3\MinesweeperBoardModel\obj\Debug\MinesweeperBoardModel.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Milestone 3\MinesweeperBoardModel\obj\Debug\MinesweeperBoardModel.dll
+C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Milestone 3\MinesweeperBoardModel\obj\Debug\MinesweeperBoardModel.pdb
