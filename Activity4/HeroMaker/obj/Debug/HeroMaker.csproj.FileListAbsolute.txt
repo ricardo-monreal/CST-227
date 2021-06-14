@@ -1,0 +1,11 @@
+C:\Users\moise\source\repos\CST-227\Activity4\HeroMaker\bin\Debug\HeroMaker.exe.config
+C:\Users\moise\source\repos\CST-227\Activity4\HeroMaker\bin\Debug\HeroMaker.exe
+C:\Users\moise\source\repos\CST-227\Activity4\HeroMaker\bin\Debug\HeroMaker.pdb
+C:\Users\moise\source\repos\CST-227\Activity4\HeroMaker\obj\Debug\HeroMaker.csprojAssemblyReference.cache
+C:\Users\moise\source\repos\CST-227\Activity4\HeroMaker\obj\Debug\HeroMaker.Properties.Resources.resources
+C:\Users\moise\source\repos\CST-227\Activity4\HeroMaker\obj\Debug\HeroMaker.csproj.GenerateResource.cache
+C:\Users\moise\source\repos\CST-227\Activity4\HeroMaker\obj\Debug\HeroMaker.csproj.CoreCompileInputs.cache
+C:\Users\moise\source\repos\CST-227\Activity4\HeroMaker\obj\Debug\HeroMaker.exe
+C:\Users\moise\source\repos\CST-227\Activity4\HeroMaker\obj\Debug\HeroMaker.pdb
+C:\Users\moise\source\repos\CST-227\Activity4\HeroMaker\obj\Debug\HeroMaker.HeroForm.resources
+C:\Users\moise\source\repos\CST-227\Activity4\HeroMaker\obj\Debug\HeroMaker.Heroes.resources
