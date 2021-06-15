@@ -38,6 +38,7 @@ namespace Milestone4
             this.ClientSize = new System.Drawing.Size(880, 641);
             this.Name = "GameGrid";
             this.Text = "GameGrid";
+            this.Load += new System.EventHandler(this.GameGrid_Load);
             this.ResumeLayout(false);
 
         }

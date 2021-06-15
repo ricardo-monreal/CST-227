@@ -12,59 +12,42 @@ namespace Milestone4
 {
     public partial class GameGrid : Form
     {
-
-        private Panel[,] _chessBoardPanels;
-
-        public GameGrid()
+        // initialize difficulty variable
+        public int difficulty;
+        public GameGrid(int difficulty)
         {
             InitializeComponent();
+            this.difficulty = difficulty;
         }
 
-       
 
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void GameGrid_Load(object sender, EventArgs e)
         {
+            // auto-resize based on number of cells created by difficulty
+            this.AutoSize = true;
+            this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
 
-            const int tileSize = 40;
-            const int gridSize = 12;
-            var clr1 = Color.DarkGray;
-            var clr2 = Color.White;
+            // set difficulty based on passed difficulty
+            // easy 1, medium 2, hard 3
+            int size = difficulty * 8;
 
-            // initialize the "chess board"
-            _chessBoardPanels = new Panel[gridSize, gridSize];
-
-            // double for loop to handle all rows and columns
-            for (var n = 0; n < gridSize; n++)
+            // create 2d grid 
+            for (int row = 0; row < size; row++)
             {
-                for (var m = 0; m < gridSize; m++)
+                for (int column = 0; column < size; column++)
                 {
-                    // create new Panel control which will be one 
-                    // chess board tile
-                    var newPanel = new Panel
-                    {
-                        Size = new Size(tileSize, tileSize),
-                        Location = new Point(tileSize * n, tileSize * m)
-                    };
-
-                    // add to Form's Controls so that they show up
-                    Controls.Add(newPanel);
-
-                    // add to our 2d array of panels for future use
-                    _chessBoardPanels[n, m] = newPanel;
-
-                    // color the backgrounds
-                    if (n % 2 == 0)
-                        newPanel.BackColor = m % 2 != 0 ? clr1 : clr2;
-                    else
-                        newPanel.BackColor = m % 2 != 0 ? clr2 : clr1;
+                    // create a button based on gameCell
+                    gameCell cellButton = new gameCell();
+                    // size of each game cell in pixels
+                    int x = column * 35;
+                    int y = row * 35;
+                    cellButton.Location = new System.Drawing.Point(x, y);
+                    cellButton.Size = new System.Drawing.Size(35, 35);
+                    this.Controls.Add(cellButton);
                 }
             }
         }
-
-        
-
-        
 
     }
 }

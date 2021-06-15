@@ -19,9 +19,24 @@ namespace Milestone4
 
         private void btn_start_Click(object sender, EventArgs e)
         {
-            GameGrid nextForm = new GameGrid();
-            this.Hide();
-            nextForm.Show();
+            // created game grid based on passed int parameter
+            if (radio_easty.Checked)
+            {
+                GameGrid game = new GameGrid(1);
+                game.Show();
+            }
+            else if (radio_medium.Checked)
+            {
+                GameGrid game = new GameGrid(2);
+                game.Show();
+            }
+            else if (radio_hard.Checked)
+            {
+                GameGrid game = new GameGrid(3);
+                game.Show();
+            }
         }
+  
     }
 }
+
