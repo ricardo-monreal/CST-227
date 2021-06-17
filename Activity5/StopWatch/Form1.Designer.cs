@@ -85,7 +85,7 @@ namespace StopWatch
             // 
             // btn_target
             // 
-            this.btn_target.BackColor = System.Drawing.Color.White;
+            this.btn_target.BackColor = System.Drawing.Color.Transparent;
             this.btn_target.BackgroundImage = global::StopWatch.Properties.Resources.mole;
             this.btn_target.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_target.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

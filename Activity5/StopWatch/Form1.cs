@@ -61,6 +61,8 @@ namespace StopWatch
 
         private void btn_target_Click(object sender, EventArgs e)
         {
+            btn_target.BackgroundImage = ((System.Drawing.Image)(Properties.Resources.mole));
+            btn_target.FlatAppearance.BorderSize = 0;
             btn_target.Visible = false;
         }
     }
