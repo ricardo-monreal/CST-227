@@ -213,7 +213,7 @@ namespace StopWatch
             this.Controls.Add(this.btn_start);
             this.Controls.Add(this.label_timer);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "CST-225 Activity 5";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Click += new System.EventHandler(this.Form1_Click_1);
             this.ResumeLayout(false);
