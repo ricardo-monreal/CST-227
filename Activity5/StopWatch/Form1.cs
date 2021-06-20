@@ -31,6 +31,7 @@ namespace StopWatch
             InitializeComponent();
             label_correctHits.Text = String.Format($"Correct Hits: {correctHits}");
             lbl_wrongHits.Text = string.Format($"Wrong hits left: {wrongHits}");
+            BackgroundImage = ((System.Drawing.Image)(Properties.Resources.grass_background));
             btn_target.Visible = true;
             btn_decoy.Visible = true;
             btn_decoy.FlatAppearance.BorderSize = 0;

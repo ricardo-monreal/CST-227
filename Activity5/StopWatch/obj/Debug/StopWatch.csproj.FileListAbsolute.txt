@@ -1,7 +1,6 @@
 C:\Users\moise\source\repos\CST-227\Activity5\StopWatch\bin\Debug\StopWatch.exe.config
 C:\Users\moise\source\repos\CST-227\Activity5\StopWatch\bin\Debug\StopWatch.exe
 C:\Users\moise\source\repos\CST-227\Activity5\StopWatch\bin\Debug\StopWatch.pdb
-C:\Users\moise\source\repos\CST-227\Activity5\StopWatch\obj\Debug\StopWatch.csprojAssemblyReference.cache
 C:\Users\moise\source\repos\CST-227\Activity5\StopWatch\obj\Debug\StopWatch.Form1.resources
 C:\Users\moise\source\repos\CST-227\Activity5\StopWatch\obj\Debug\StopWatch.Properties.Resources.resources
 C:\Users\moise\source\repos\CST-227\Activity5\StopWatch\obj\Debug\StopWatch.csproj.GenerateResource.cache
@@ -18,3 +17,4 @@ C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-22
 C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity5\StopWatch\obj\Debug\StopWatch.csproj.CoreCompileInputs.cache
 C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity5\StopWatch\obj\Debug\StopWatch.exe
 C:\Users\Ricardo.Monreal\OneDrive - Sun Life Family Health Center\Desktop\CST-227\Activity5\StopWatch\obj\Debug\StopWatch.pdb
+C:\Users\moise\source\repos\CST-227\Activity5\StopWatch\obj\Debug\StopWatch.csproj.AssemblyReference.cache

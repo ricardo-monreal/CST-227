@@ -55,32 +55,41 @@ namespace StopWatch
             // 
             // btn_start
             // 
+            this.btn_start.BackColor = System.Drawing.Color.DarkGreen;
+            this.btn_start.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_start.ForeColor = System.Drawing.SystemColors.Control;
             this.btn_start.Location = new System.Drawing.Point(34, 400);
             this.btn_start.Name = "btn_start";
             this.btn_start.Size = new System.Drawing.Size(109, 39);
             this.btn_start.TabIndex = 1;
             this.btn_start.Text = "Start";
-            this.btn_start.UseVisualStyleBackColor = true;
+            this.btn_start.UseVisualStyleBackColor = false;
             this.btn_start.Click += new System.EventHandler(this.btn_start_Click);
             // 
             // btn_stop
             // 
+            this.btn_stop.BackColor = System.Drawing.Color.DarkGreen;
+            this.btn_stop.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_stop.ForeColor = System.Drawing.SystemColors.Control;
             this.btn_stop.Location = new System.Drawing.Point(178, 400);
             this.btn_stop.Name = "btn_stop";
             this.btn_stop.Size = new System.Drawing.Size(109, 39);
             this.btn_stop.TabIndex = 2;
             this.btn_stop.Text = "Stop";
-            this.btn_stop.UseVisualStyleBackColor = true;
+            this.btn_stop.UseVisualStyleBackColor = false;
             this.btn_stop.Click += new System.EventHandler(this.btn_stop_Click);
             // 
             // btn_reset
             // 
+            this.btn_reset.BackColor = System.Drawing.Color.DarkGreen;
+            this.btn_reset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_reset.ForeColor = System.Drawing.SystemColors.Control;
             this.btn_reset.Location = new System.Drawing.Point(335, 400);
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(111, 39);
             this.btn_reset.TabIndex = 3;
             this.btn_reset.Text = "Reset";
-            this.btn_reset.UseVisualStyleBackColor = true;
+            this.btn_reset.UseVisualStyleBackColor = false;
             this.btn_reset.Click += new System.EventHandler(this.btn_reset_Click);
             // 
             // timer1
@@ -111,10 +120,11 @@ namespace StopWatch
             // 
             this.label_correctHits.AutoSize = true;
             this.label_correctHits.BackColor = System.Drawing.Color.Transparent;
-            this.label_correctHits.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_correctHits.Location = new System.Drawing.Point(12, 9);
+            this.label_correctHits.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_correctHits.ForeColor = System.Drawing.SystemColors.Control;
+            this.label_correctHits.Location = new System.Drawing.Point(31, 9);
             this.label_correctHits.Name = "label_correctHits";
-            this.label_correctHits.Size = new System.Drawing.Size(92, 18);
+            this.label_correctHits.Size = new System.Drawing.Size(110, 20);
             this.label_correctHits.TabIndex = 5;
             this.label_correctHits.Text = "Correct Hits:";
             // 
@@ -122,10 +132,11 @@ namespace StopWatch
             // 
             this.lbl_wrongHits.AutoSize = true;
             this.lbl_wrongHits.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_wrongHits.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_wrongHits.Location = new System.Drawing.Point(355, 5);
+            this.lbl_wrongHits.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_wrongHits.ForeColor = System.Drawing.SystemColors.Control;
+            this.lbl_wrongHits.Location = new System.Drawing.Point(338, 5);
             this.lbl_wrongHits.Name = "lbl_wrongHits";
-            this.lbl_wrongHits.Size = new System.Drawing.Size(91, 18);
+            this.lbl_wrongHits.Size = new System.Drawing.Size(108, 20);
             this.lbl_wrongHits.TabIndex = 6;
             this.lbl_wrongHits.Text = "Wrong Hits: ";
             // 
@@ -143,22 +154,28 @@ namespace StopWatch
             // 
             // btn_playAgain
             // 
+            this.btn_playAgain.BackColor = System.Drawing.Color.DarkGreen;
+            this.btn_playAgain.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_playAgain.ForeColor = System.Drawing.SystemColors.Control;
             this.btn_playAgain.Location = new System.Drawing.Point(34, 275);
             this.btn_playAgain.Name = "btn_playAgain";
             this.btn_playAgain.Size = new System.Drawing.Size(159, 63);
             this.btn_playAgain.TabIndex = 8;
             this.btn_playAgain.Text = "Play Again?";
-            this.btn_playAgain.UseVisualStyleBackColor = true;
+            this.btn_playAgain.UseVisualStyleBackColor = false;
             this.btn_playAgain.Click += new System.EventHandler(this.btn_playAgain_Click);
             // 
             // btn_exit
             // 
+            this.btn_exit.BackColor = System.Drawing.Color.DarkGreen;
+            this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_exit.ForeColor = System.Drawing.SystemColors.Control;
             this.btn_exit.Location = new System.Drawing.Point(287, 275);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(159, 63);
             this.btn_exit.TabIndex = 9;
             this.btn_exit.Text = "Exit";
-            this.btn_exit.UseVisualStyleBackColor = true;
+            this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
             // btn_decoy
