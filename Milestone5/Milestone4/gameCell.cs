@@ -1,4 +1,5 @@
-﻿using System;
+﻿//using MinesweeperBoardModel;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -8,6 +9,11 @@ namespace Milestone4
     {
         // initiliaze a click counter
         public int count = 0;
+        private double RowNumber;
+        private double ColumnNumber;
+        private bool isVisited;
+        private bool isLive;
+        private double LiveNeighbors;
 
         // initialize a game cell
         public gameCell()
@@ -31,5 +37,7 @@ namespace Milestone4
             // Change color of clicked game cell
             this.BackColor = Color.DarkGray;
         }
+
+        
     }
 }
