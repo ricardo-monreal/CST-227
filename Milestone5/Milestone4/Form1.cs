@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Milestone5;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Milestone4
+namespace Milestone5
 {
     public partial class Form1 : Form
     {
@@ -36,7 +37,5 @@ namespace Milestone4
                 game.Show();
             }
         }
-  
     }
 }
-
