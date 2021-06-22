@@ -66,43 +66,42 @@ namespace Milestone5
             // Number of Cells
             double cellNumber = size * size;
 
-            // Get random percentage between 15-20
-            Random rnd = new Random();
-            double ranPercent = rnd.Next(15, 20);
+            // createa random perctange 
+            Random random = new Random();
+            double randomPercent = random.Next(15, 20);
 
-            // Use random percentage to find number of cells that will be live
-            ranPercent = ranPercent / 100;
-            double randomCount = Math.Round(cellNumber * ranPercent, 0);
+            // set number of cells to be live cells
+            randomPercent = randomPercent / 100;
+            double randomCount = Math.Round(cellNumber * randomPercent, 0);
 
-            int[] randomLive = new int[Convert.ToInt32(randomCount)];
+            int[] randomIsLive = new int[Convert.ToInt32(randomCount)];
 
-            // Create Array of random cells to turn live
+            // array of cells to be live cells
             for (int i = 0; i < randomCount; i++)
             {
-                double cellLive = rnd.Next(0, Convert.ToInt32(cellNumber));
+                double cellIsLive = random.Next(0, Convert.ToInt32(cellNumber));
 
-                int pos = Array.IndexOf(randomLive, cellLive);
-                if (pos > -1)
+                int position = Array.IndexOf(randomIsLive, cellIsLive);
+                if (position > -1)
                 {
-                    // check randomLive array, is number is present do not add to array
+                    // do not add if number is present
                     return;
                 }
                 else
                 {
-                    randomLive[i] = Convert.ToInt32(cellLive);
-                    //Console.WriteLine(cellLive);
+                    randomIsLive[i] = Convert.ToInt32(cellIsLive);
                 }
             }
 
-            // Loop through and make cells live.
+            // set cells live by looping through grid
             int liveCounter = 0;
-            for (int i = 0; i < cellButton.GetLength(0); i++)
+            for (int row = 0; row < cellButton.GetLength(0); row++)
             {
-                for (int j = 0; j < cellButton.GetLength(0); j++)
+                for (int column = 0; column < cellButton.GetLength(0); column++)
                 {
-                    if (randomLive.Contains(liveCounter))
+                    if (randomIsLive.Contains(liveCounter))
                     {
-                        cellButton[i, j].setLive(true);
+                        cellButton[row, column].setLive(true);
                     }
                     liveCounter++;
                 }
