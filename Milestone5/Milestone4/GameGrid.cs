@@ -107,116 +107,115 @@ namespace Milestone5
                 }
             }
 
-            // Loop through and set neighbors count.
+            // set neighbors count.
             int neighborsCounter = 0;
-            for (int i = 0; i < cellButton.GetLength(0); i++)
+            for (int row = 0; row < cellButton.GetLength(0); row++)
             {
-                for (int j = 0; j < cellButton.GetLength(0); j++)
+                for (int column = 0; column < cellButton.GetLength(0); column++)
                 {
                     neighborsCounter = 0;
-                    bool cellVal = cellButton[i, j].getLive();
-                    if (cellVal == false)
+                    bool cellValue = cellButton[row, column].getLive();
+                    if (cellValue == false)
                     {
                         // leftNeighbor
-                        if (i > 0)
+                        if (row > 0)
                         {
-                            bool val = cellButton[i - 1, j].getLive();
-                            if (val)
+                            bool value = cellButton[row - 1, column].getLive();
+                            if (value)
                             {
                                 neighborsCounter++;
                             }
                         }
 
                         // rightNeighbor
-                        if (i < cellButton.GetLength(0) - 1)
+                        if (row < cellButton.GetLength(0) - 1)
                         {
-                            bool val = cellButton[i + 1, j].getLive();
-                            if (val)
+                            bool value = cellButton[row + 1, column].getLive();
+                            if (value)
                             {
                                 neighborsCounter++;
                             }
                         }
 
                         // topNeighbor
-                        if (j > 0)
+                        if (column > 0)
                         {
-                            bool val = cellButton[i, j - 1].getLive();
-                            if (val)
+                            bool value = cellButton[row, column - 1].getLive();
+                            if (value)
                             {
                                 neighborsCounter++;
                             }
                         }
 
                         // bottomNeighbor
-                        if (j < cellButton.GetLength(0) - 1)
+                        if (column < cellButton.GetLength(0) - 1)
                         {
-                            bool val = cellButton[i, j + 1].getLive();
-                            if (val)
+                            bool value = cellButton[row, column + 1].getLive();
+                            if (value)
                             {
                                 neighborsCounter++;
                             }
                         }
 
                         // topLeftNeighbor
-                        if ((i > 0) && (j > 0))
+                        if ((row > 0) && (column > 0))
                         {
-                            bool val = cellButton[i - 1, j - 1].getLive();
-                            if (val)
+                            bool value = cellButton[row - 1, column - 1].getLive();
+                            if (value)
                             {
                                 neighborsCounter++;
                             }
                         }
 
                         // topRightNeighbor
-                        if ((i < cellButton.GetLength(0) - 1) && (j > 0))
+                        if ((row < cellButton.GetLength(0) - 1) && (column > 0))
                         {
-                            bool val = cellButton[i + 1, j - 1].getLive();
-                            if (val)
+                            bool value = cellButton[row + 1, column - 1].getLive();
+                            if (value)
                             {
                                 neighborsCounter++;
                             }
                         }
 
                         // bottomLeftNeighbor
-                        if ((i > 0) && (j < cellButton.GetLength(0) - 1))
+                        if ((row > 0) && (column < cellButton.GetLength(0) - 1))
                         {
-                            bool val = cellButton[i - 1, j + 1].getLive();
-                            if (val)
+                            bool value = cellButton[row - 1, column + 1].getLive();
+                            if (value)
                             {
                                 neighborsCounter++;
                             }
                         }
 
                         // bottomRightNeighbor
-                        if ((i < cellButton.GetLength(0) - 1) && (j < cellButton.GetLength(0) - 1))
+                        if ((row < cellButton.GetLength(0) - 1) && (column < cellButton.GetLength(0) - 1))
                         {
-                            bool val = cellButton[i + 1, j + 1].getLive();
-                            if (val)
+                            bool value = cellButton[row + 1, column + 1].getLive();
+                            if (value)
                             {
                                 neighborsCounter++;
                             }
                         }
                         // setNeighbors
-                        cellButton[i, j].setNeighbors(neighborsCounter);
+                        cellButton[row, column].setNeighbors(neighborsCounter);
                     }
                     else
                     {
                         // if live setNeighbors to 9 
-                        cellButton[i, j].setNeighbors(9);
+                        cellButton[row, column].setNeighbors(9);
                     }
                 }
             }
-            // Center the form on screen
-            this.CenterToScreen();
+            
         }
 
-        public virtual void revealGrid()
+        public virtual void calculateLiveNeighbors()
         {
 
-            // For each Cell in the Square
+            // For each Cell in the game grid
             for (int i = 0; i < cellButton.GetLength(0); i++)
             {
-                // Create counter for number of Cells in row
+                // Create counter 
                 int counter = 0;
                 for (int j = 0; j < cellButton.GetLength(0); j++)
                 {
@@ -237,14 +236,14 @@ namespace Milestone5
             }
         }
 
-        // Recursive algorithm that reveals blocks of cells with no live neighbors
-        public void revealZeros(int i, int j)
+        // milestone 3 setup recursion
+        public void floodFill(int i, int j)
         {
 
             bool cellVal = cellButton[i, j].getLive();
             if (cellVal == false)
             {
-                // leftNeighbor
+                // will check neighbors to the LEFT
                 if (i > 0)
                 {
                     // Get Neighbors
@@ -257,7 +256,7 @@ namespace Milestone5
                         // turn neighbor to visited
                         cellButton[i - 1, j].setVisited(true);
                         cellButton[i - 1, j].revealNeighbors();
-                        revealZeros(i - 1, j);
+                        floodFill(i - 1, j);
                     }
                     else if ((Convert.ToInt32(val) < 9) && (!visited))
                     {
@@ -266,7 +265,7 @@ namespace Milestone5
                     }
                 }
 
-                // rightNeighbor
+                // will check neighbors to the RIGHt
                 if (i < cellButton.GetLength(0) - 1)
                 {
                     // Get Neighbors
@@ -279,7 +278,7 @@ namespace Milestone5
                         // turn neighbor to visited
                         cellButton[i + 1, j].setVisited(true);
                         cellButton[i + 1, j].revealNeighbors();
-                        revealZeros(i + 1, j);
+                        floodFill(i + 1, j);
                     }
                     else if ((Convert.ToInt32(val) < 9) && (!visited))
                     {
@@ -288,7 +287,7 @@ namespace Milestone5
                     }
                 }
 
-                // topNeighbor
+                // will check neighbors to the TOP
                 if (j > 0)
                 {
                     // Get Neighbors
@@ -301,7 +300,7 @@ namespace Milestone5
                         // turn neighbor to visited
                         cellButton[i, j - 1].setVisited(true);
                         cellButton[i, j - 1].revealNeighbors();
-                        revealZeros(i, j - 1);
+                        floodFill(i, j - 1);
                     }
                     else if ((Convert.ToInt32(val) < 9) && (!visited))
                     {
@@ -310,7 +309,7 @@ namespace Milestone5
                     }
                 }
 
-                // bottomNeighbor
+                // will check neighbors to the BOTTOM 
                 if (j < cellButton.GetLength(0) - 1)
                 {
                     double val = cellButton[i, j + 1].getNeighbors();
@@ -322,7 +321,7 @@ namespace Milestone5
                         // turn neighbor to visited
                         cellButton[i, j + 1].setVisited(true);
                         cellButton[i, j + 1].revealNeighbors();
-                        revealZeros(i, j + 1);
+                        floodFill(i, j + 1);
                     }
                     else if ((Convert.ToInt32(val) < 9) && (!visited))
                     {
@@ -336,21 +335,20 @@ namespace Milestone5
 
         public void checkWin()
         {
-            // Check if game has been won
+            // Check if game is won
             int cellsVisited = 0;
             int visitedcounter = size * size;
 
             for (int i = 0; i < size; i++)
             {
-                // Create counter for number of Cells in row
                 for (int j = 0; j < size; j++)
                 {
-                    // Check all cells is they have been visited
+                    // if all cells are visited
                     if (cellButton[i, j].getVisited())
                     {
                         cellsVisited++;
                     }
-                    // Check all cells if they are a mine
+                    // if bombs remain
                     if (cellButton[i, j].getLive())
                     {
                         cellsVisited++;
@@ -360,14 +358,14 @@ namespace Milestone5
             // If you have won the game
             if (cellsVisited == visitedcounter)
             {
-                // stop timer
+                
                 stopWatch.Stop();
-                // Get the elapsed time as a TimeSpan value.
+                
                 TimeSpan ts = stopWatch.Elapsed;
 
-                // Format and display the TimeSpan value.
+                // win game display
                 string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}", ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
-                string text = "Congratulations, your have Won!" + Environment.NewLine + "Time elapsed: " + elapsedTime + "seconds.";
+                string text = "You have won!" + Environment.NewLine + "Your play time was: " + elapsedTime + "seconds.";
                 MessageBox.Show(text);
             }
         }

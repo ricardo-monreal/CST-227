@@ -5,140 +5,128 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
+using System.Diagnostics;
+
 
 namespace Milestone5
 {
     // Extend button Class
     public class gameCell : Button
     {
-        private double row;       // cell rowNumber
-        private double column;    // cell columnNumber
-        private bool visited;     // cell has been visited
-        private bool live;        // cell is live
-        private double neighbors; // cell live neighbors
-
-        // Set initial count to 0
+        Stopwatch stopWatch = new Stopwatch();
+        private double RowNumber;      
+        private double ColumnNumber;   
+        private bool isVisited;     
+        private bool isLive;        
+        private double liveNeighbors; 
+        
         public int count = 0;
 
-        // On initialize
         public gameCell()
         {
             // set starting paramaters
-            this.BackColor = Color.LightBlue;
+            this.BackColor = Color.DarkGray;
             this.Text = "";
             this.setRow(-1);
             this.setColumn(-1);
             this.setVisited(false);
             this.setLive(false);
             this.setNeighbors(0);
+            stopWatch.Start();
         }
 
-        // get cell count
         public int getCount()
         {
             return this.count;
         }
 
-        // set cell count
         public void setCount()
         {
             this.count = this.count + 1;
         }
 
-        // set cell row
         public void setRow(double row)
         {
-            this.row = row;
+            this.RowNumber = row;
         }
 
-        // set cell column
         public void setColumn(double column)
         {
-            this.column = column;
+            this.ColumnNumber = column;
         }
 
-        // set cell visited
         public void setVisited(bool visited)
         {
-            this.visited = visited;
+            this.isVisited = visited;
         }
 
-        // set cell live value
         public void setLive(bool live)
         {
-            this.live = live;
+            this.isLive = live;
         }
 
-        // set cell neighbors
         public void setNeighbors(double neighbors)
         {
-            this.neighbors = neighbors;
+            this.liveNeighbors = neighbors;
         }
 
-        // get cell row
         public double getRow()
         {
-            return this.row;
+            return this.RowNumber;
         }
 
-        // get cell column
         public double getCloumn()
         {
-            return this.column;
+            return this.ColumnNumber;
         }
 
-        // get cell visited value
         public bool getVisited()
         {
-            return this.visited;
+            return this.isVisited;
         }
 
-        // get cell live value
         public bool getLive()
         {
-            return this.live;
+            return this.isLive;
         }
 
-        // get cell neighbors
         public double getNeighbors()
         {
-            return this.neighbors;
+            return this.liveNeighbors;
         }
 
-        // override base onclick method for button class
-        protected override void OnClick(EventArgs e)
-        {
+        //// override base onclick method for button class
+        //protected override void OnClick(EventArgs e)
+        //{
 
-        }
+        //}
 
-        // Set Grid class for each cell
         public GameGrid Grid;
 
-        // Have Current Grid class
         public void createGrid(GameGrid form)
         {
             Grid = form;
         }
 
         // Control the grid class
-        public void ControlGrid(GameGrid form)
+        public void setupGrid(GameGrid form)
         {
-            form.revealGrid();
+            form.calculateLiveNeighbors();
         }
 
-        // use grind class to check in your have won the game
+        // check if game is won
         public void winGrid(GameGrid form)
         {
             form.checkWin();
         }
 
-        // reveal the 0's if a 0 value is clicked
-        public void revealZerosGrid(GameGrid form)
+        // if safe cell is clicked
+        public void safeCell(GameGrid form)
         {
-            form.revealZeros(Convert.ToInt32(this.getRow()), Convert.ToInt32(this.getCloumn()));
+            form.floodFill(Convert.ToInt32(this.getRow()), Convert.ToInt32(this.getCloumn()));
         }
 
-        // Mouse controls
+        // Form controls
         protected override void OnMouseDown(MouseEventArgs e)
         {
             switch (MouseButtons)
@@ -146,21 +134,27 @@ namespace Milestone5
                 // On Left Mouse Click
                 case MouseButtons.Left:
 
-                    // if you hit a bomb
+                    // if live cell is clicked
                     if (this.getNeighbors() == 9)
                     {
-                        ControlGrid(Grid);
-                        string text = "Game Over";
+                        setupGrid(Grid);
+                        stopWatch.Stop();
+
+                        TimeSpan ts = stopWatch.Elapsed;
+
+                        // Format and display the TimeSpan value.
+                        string text = String.Format("Game Over!\n Your play time was\n{0:00}:{1:00}:{2:00}.{3:00}", ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
+                        // display play time to user
                         MessageBox.Show(text);
                     }
                     else if (this.getNeighbors() == 0)
                     {
-                        // if you hit an 0
+                        // if safe cell is clicked
                         this.BackColor = Color.LightGray;
                         this.Image = null;
-                        revealZerosGrid(Grid);
+                        safeCell(Grid);
                     }
-                    // if you hit anything else
+                    // if anything else is clicked 
                     else if (this.getNeighbors() > 0)
                     {
                         this.BackColor = Color.LightGray;
@@ -171,9 +165,8 @@ namespace Milestone5
                     winGrid(Grid);
                     break;
 
-                // On Right Mouse Click
+                // get flag on right click
                 case MouseButtons.Right:
-                    // change text
                     this.Text = "";
                     // Assign an image to the button.
                     this.BackColor = Color.LightGray;
@@ -183,18 +176,16 @@ namespace Milestone5
             }
         }
 
-        // reveal the bomb in cell is live
+        // show live bombs
         public void revealLive()
         {
-            // change text
             this.Text = "";
-            // Assign an image to the button.
             this.BackColor = Color.LightGray;
             this.Image = Properties.Resources.bomb;
             this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
-        // reveal the Neighbors for each cell
+        // show cell neighbors
         public void revealNeighbors()
         {
             // if button has neighbors
@@ -206,7 +197,6 @@ namespace Milestone5
             {
                 this.Text = "";
             }
-            // Assign an image to the button.
             this.BackColor = Color.LightGray;
             this.BackgroundImageLayout = ImageLayout.Stretch;
         }
