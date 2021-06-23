@@ -183,10 +183,11 @@ namespace Milestone5
             this.BackColor = Color.LightGray;
             this.Image = Properties.Resources.bomb;
             this.BackgroundImageLayout = ImageLayout.Stretch;
+
         }
 
         // show cell neighbors
-        public void revealNeighbors()
+        public void showNeighbors()
         {
             // if button has neighbors
             if (this.getNeighbors() > 0)

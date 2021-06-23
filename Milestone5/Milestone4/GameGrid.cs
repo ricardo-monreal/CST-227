@@ -228,7 +228,7 @@ namespace Milestone5
                         }
                         else
                         {
-                            cellButton[i, j].revealNeighbors();
+                            cellButton[i, j].showNeighbors();
                         }
 
                     }
@@ -255,13 +255,13 @@ namespace Milestone5
                     {
                         // turn neighbor to visited
                         cellButton[i - 1, j].setVisited(true);
-                        cellButton[i - 1, j].revealNeighbors();
+                        cellButton[i - 1, j].showNeighbors();
                         floodFill(i - 1, j);
                     }
                     else if ((Convert.ToInt32(val) < 9) && (!visited))
                     {
                         cellButton[i - 1, j].setVisited(true);
-                        cellButton[i - 1, j].revealNeighbors();
+                        cellButton[i - 1, j].showNeighbors();
                     }
                 }
 
@@ -277,13 +277,13 @@ namespace Milestone5
                     {
                         // turn neighbor to visited
                         cellButton[i + 1, j].setVisited(true);
-                        cellButton[i + 1, j].revealNeighbors();
+                        cellButton[i + 1, j].showNeighbors();
                         floodFill(i + 1, j);
                     }
                     else if ((Convert.ToInt32(val) < 9) && (!visited))
                     {
                         cellButton[i + 1, j].setVisited(true);
-                        cellButton[i + 1, j].revealNeighbors();
+                        cellButton[i + 1, j].showNeighbors();
                     }
                 }
 
@@ -299,13 +299,13 @@ namespace Milestone5
                     {
                         // turn neighbor to visited
                         cellButton[i, j - 1].setVisited(true);
-                        cellButton[i, j - 1].revealNeighbors();
+                        cellButton[i, j - 1].showNeighbors();
                         floodFill(i, j - 1);
                     }
                     else if ((Convert.ToInt32(val) < 9) && (!visited))
                     {
                         cellButton[i, j - 1].setVisited(true);
-                        cellButton[i, j - 1].revealNeighbors();
+                        cellButton[i, j - 1].showNeighbors();
                     }
                 }
 
@@ -320,13 +320,13 @@ namespace Milestone5
                     {
                         // turn neighbor to visited
                         cellButton[i, j + 1].setVisited(true);
-                        cellButton[i, j + 1].revealNeighbors();
+                        cellButton[i, j + 1].showNeighbors();
                         floodFill(i, j + 1);
                     }
                     else if ((Convert.ToInt32(val) < 9) && (!visited))
                     {
                         cellButton[i, j + 1].setVisited(true);
-                        cellButton[i, j + 1].revealNeighbors();
+                        cellButton[i, j + 1].showNeighbors();
                     }
                 }
             }
