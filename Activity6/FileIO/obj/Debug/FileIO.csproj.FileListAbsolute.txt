@@ -1,0 +1,7 @@
+C:\Users\moise\source\repos\Activity6\FileIO\bin\Debug\FileIO.exe.config
+C:\Users\moise\source\repos\Activity6\FileIO\bin\Debug\FileIO.exe
+C:\Users\moise\source\repos\Activity6\FileIO\bin\Debug\FileIO.pdb
+C:\Users\moise\source\repos\Activity6\FileIO\obj\Debug\FileIO.csproj.AssemblyReference.cache
+C:\Users\moise\source\repos\Activity6\FileIO\obj\Debug\FileIO.csproj.CoreCompileInputs.cache
+C:\Users\moise\source\repos\Activity6\FileIO\obj\Debug\FileIO.exe
+C:\Users\moise\source\repos\Activity6\FileIO\obj\Debug\FileIO.pdb

@@ -1,0 +1,7 @@
+C:\Users\moise\source\repos\Activity6\LINQdemo\bin\Debug\LINQdemo.exe.config
+C:\Users\moise\source\repos\Activity6\LINQdemo\bin\Debug\LINQdemo.exe
+C:\Users\moise\source\repos\Activity6\LINQdemo\bin\Debug\LINQdemo.pdb
+C:\Users\moise\source\repos\Activity6\LINQdemo\obj\Debug\LINQdemo.csproj.CoreCompileInputs.cache
+C:\Users\moise\source\repos\Activity6\LINQdemo\obj\Debug\LINQdemo.exe
+C:\Users\moise\source\repos\Activity6\LINQdemo\obj\Debug\LINQdemo.pdb
+C:\Users\moise\source\repos\Activity6\LINQdemo\obj\Debug\LINQdemo.csproj.AssemblyReference.cache
