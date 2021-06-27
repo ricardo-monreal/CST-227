@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIOGUI", "FileIOGUI\File
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQdemo", "LINQdemo\LINQdemo.csproj", "{AE765944-211D-4E5F-A962-FDBC29578C24}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{1FD4666C-1275-4901-8F2C-60CFB73285D5}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\demos\peopleOut.txt = ..\..\..\..\..\..\demos\peopleOut.txt
+		..\..\..\..\..\..\demos\test.txt = ..\..\..\..\..\..\demos\test.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

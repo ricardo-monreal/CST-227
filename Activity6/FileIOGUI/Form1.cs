@@ -42,8 +42,13 @@ namespace FileIOGUI
 
         private void button_load_Click(object sender, EventArgs e)
         {
-            string filePath = @"C:\demos\peopleOut.txt";
+            string filePath = @"\\Resources\peopleOut.txt";
             textBox1.Text = File.ReadAllText(filePath);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

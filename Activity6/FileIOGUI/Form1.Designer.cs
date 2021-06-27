@@ -120,17 +120,18 @@ namespace FileIOGUI
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(230, 12);
+            this.textBox1.Location = new System.Drawing.Point(230, 19);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(287, 280);
+            this.textBox1.Size = new System.Drawing.Size(471, 273);
             this.textBox1.TabIndex = 11;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(603, 323);
+            this.ClientSize = new System.Drawing.Size(787, 323);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox_url);
             this.Controls.Add(this.textBox_lastName);

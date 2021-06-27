@@ -1,0 +1,15 @@
+dog,easy,00:07:53
+cow,easy,00:05:14
+moy,easy,00:03:57
+yum,easy,00:02:45
+gcu,easy,00:00:01.8300429
+moy,medium,00:03:57
+yum,medium,00:02:45
+cow,medium,00:05:14
+dog,medium,00:07:53
+cat,medium,00:10:32
+moy,hard,00:03:57
+yum,hard,00:02:45
+cow,hard,00:05:14
+dog,hard,00:07:53
+yup,hard,00:00:01.1329469
