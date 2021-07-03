@@ -42,7 +42,7 @@ namespace FileIOGUI
 
         private void button_load_Click(object sender, EventArgs e)
         {
-            string filePath = @"\\Resources\peopleOut.txt";
+            string filePath = @"C:\demos\peopleOut.txt";
             textBox1.Text = File.ReadAllText(filePath);
         }
 
