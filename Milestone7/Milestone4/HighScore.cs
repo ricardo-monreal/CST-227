@@ -100,6 +100,7 @@ namespace Milestone6
                 button_addScore.Visible = true;
                 textBox_initials.Visible = true;
 
+
                 label_playerScore.Text = String.Format("{0:00}:{1:00}:{2:00}", playerScore.Hours, playerScore.Minutes, playerScore.Seconds);
 
             }
@@ -151,7 +152,6 @@ namespace Milestone6
                 {
 
                     easy[i] = newList[i];
-                    var sortedList = newList.OrderBy( s => s.playTime);
                 }
             }
             else if (gameDifficulty == "medium")
@@ -212,11 +212,23 @@ namespace Milestone6
 
             if (gameDifficulty == "easy")
             {
-                foreach (var stat in easy)
-                {
-                    newScore += stat.playerInitials + ": " + stat.playTime + Environment.NewLine + Environment.NewLine;
+                var orderedPlayer = 
+                    from PlayerStats stats in output
+                    orderby stats
+                    select stats;
+                var top5Player = orderedPlayer.Take(5);
 
+                List<String> outputLines = new List<string>();
+                foreach  (PlayerStats s in top5Player)
+                {
+                    outputLines.Add(s.ToString());  
                 }
+                
+
+                //foreach (var stat in easy)
+                //{
+                //    newScore += stat.playerInitials + ": " + stat.playTime + Environment.NewLine + Environment.NewLine;
+                //}
 
                 
             }
