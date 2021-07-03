@@ -151,7 +151,7 @@ namespace Milestone6
                 {
 
                     easy[i] = newList[i];
-                    
+                    var sortedList = newList.OrderBy( s => s.playTime);
                 }
             }
             else if (gameDifficulty == "medium")

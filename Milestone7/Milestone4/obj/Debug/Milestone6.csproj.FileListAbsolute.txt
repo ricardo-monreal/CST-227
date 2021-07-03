@@ -1,0 +1,15 @@
+C:\Users\moise\source\repos\CST-227\Milestone6\Milestone4\bin\Debug\Milestone4.exe.config
+C:\Users\moise\source\repos\CST-227\Milestone6\Milestone4\bin\Debug\Milestone4.exe
+C:\Users\moise\source\repos\CST-227\Milestone6\Milestone4\bin\Debug\Milestone4.pdb
+C:\Users\moise\source\repos\CST-227\Milestone6\Milestone4\bin\Debug\MinesweeperBoardModel.dll
+C:\Users\moise\source\repos\CST-227\Milestone6\Milestone4\bin\Debug\MinesweeperBoardModel.pdb
+C:\Users\moise\source\repos\CST-227\Milestone6\Milestone4\obj\Debug\Milestone6.csproj.AssemblyReference.cache
+C:\Users\moise\source\repos\CST-227\Milestone6\Milestone4\obj\Debug\Milestone6.Form1.resources
+C:\Users\moise\source\repos\CST-227\Milestone6\Milestone4\obj\Debug\Milestone6.GameGrid.resources
+C:\Users\moise\source\repos\CST-227\Milestone6\Milestone4\obj\Debug\Milestone4.Properties.Resources.resources
+C:\Users\moise\source\repos\CST-227\Milestone6\Milestone4\obj\Debug\Milestone6.csproj.GenerateResource.cache
+C:\Users\moise\source\repos\CST-227\Milestone6\Milestone4\obj\Debug\Milestone6.csproj.CoreCompileInputs.cache
+C:\Users\moise\source\repos\CST-227\Milestone6\Milestone4\obj\Debug\Milestone6.csproj.CopyComplete
+C:\Users\moise\source\repos\CST-227\Milestone6\Milestone4\obj\Debug\Milestone4.exe
+C:\Users\moise\source\repos\CST-227\Milestone6\Milestone4\obj\Debug\Milestone4.pdb
+C:\Users\moise\source\repos\CST-227\Milestone6\Milestone4\obj\Debug\Milestone6.HighScore.resources
