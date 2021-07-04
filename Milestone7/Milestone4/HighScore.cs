@@ -212,25 +212,26 @@ namespace Milestone6
 
             if (gameDifficulty == "easy")
             {
-                var orderedPlayer = 
-                    from PlayerStats stats in output
-                    orderby stats
-                    select stats;
-                var top5Player = orderedPlayer.Take(5);
+                //var orderedPlayer = 
+                //    from PlayerStats stats in output
+                //    orderby stats
+                //    select stats;
+                //var top5Player = orderedPlayer.Take(5);
 
-                List<String> outputLines = new List<string>();
-                foreach  (PlayerStats s in top5Player)
-                {
-                    outputLines.Add(s.ToString());  
-                }
-                
-
-                //foreach (var stat in easy)
+                //List<String> outputLines = new List<string>();
+                //foreach  (PlayerStats s in top5Player)
                 //{
-                //    newScore += stat.playerInitials + ": " + stat.playTime + Environment.NewLine + Environment.NewLine;
+                //    outputLines.Add(s.ToString());  
                 //}
 
-                
+
+                foreach (var stat in easy)
+                {
+                    newScore += stat.playerInitials + ": " + stat.playTime + Environment.NewLine + Environment.NewLine;
+
+                }
+
+
             }
             else if (gameDifficulty == "medium")
             {
